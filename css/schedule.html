@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <script src="https://kit.fontawesome.com/9339050507.js" crossorigin="anonymous"></script>
+        <title>TIMETABLE</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="topnav">
+            <a href="index.html"><i class="fas fa-home"></i>HOME</a>
+            <a href="register.html"><i class="fas fa-user"></i> Register</a>
+            <a class="active" href="schedule.html"><i class="fas fa-calendar"></i> Timetable</a>
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="schedule">
+            <center>
+                <table>
+                    <tr>
+                        <th>Time</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                        <th>Saturday</th>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="7">Morning</td>
+                    </tr>
+                    <tr>
+                        <td>7:30-9:00</td>
+                        <td rowspan="2">Web Design</td>
+                        <td>Network</td>
+                        <td>Soft skill</td>
+                        <td>Graphic Design</td>
+                        <td>Biz Commerce</td>
+                        <td>Small Biz Account</td>
+                    </tr>
+                    <tr>
+                        <td>9:15-10:45</td>
+                        <td>Graphic Design</td>
+                        <td>OOP</td>
+                        <td rowspan="2">Web Design</td>
+                        <td>Network</td>
+                        <td>Soft Skill</td>
+                    </tr>
+                    <tr>
+                        <td>11:00-12:30</td>
+                        <td>French</td>
+                        <td>English</td>
+                        <td>Stock Management</td>
+                        <td>Free</td>
+                        <td>Spot</td>
+                    </tr>
+                    <tr>
+                        <td colspan="7" align="center">Afternoon</td>
+                    </tr>
+                    <tr>
+                        <td>01:00-02:30</td>
+                        <td rowspan="2" colspan="4" align="center">Free</td>
+                        <td>English</td>
+                        <td>English</td>
+                    </tr>
+                    <tr>
+                        <td>2:45-04:00</td>
+                        <td>Fe</td>
+                        <td>English</td>
+                    </tr>
+                </table>
+            </center>
+        </div>
+    </body>
+
+</html>
